@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MarinaTest
+  host: MarinaTest
+  disk_quota: 1024M
+  services:
+  - MarinaTest-AdvancedMobileAccess
+  - MarinaTest-imfpush
+  - MarinaTest-cloudantNoSQLDB
+  - Conversation-si
